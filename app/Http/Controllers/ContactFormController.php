@@ -103,8 +103,6 @@ class ContactFormController extends Controller
         $gender = CheckFormData::checkGender($contact);
         $age = CheckFormData::checkAge($contact);
 
-        ini_set('error_reporting', E_ALL);
-
         return view('contact.show',
         compact('contact', 'gender', 'age'));
     }
