@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\ContactForm;
 use Illuminate\Support\Facades\DB;
 use App\Services\CheckFormData;
-use App\Http\Requests\StoreContactForm;
+
 
 class ContactFormController extends Controller
 {
