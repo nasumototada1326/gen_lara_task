@@ -71,7 +71,7 @@ class ContactFormController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreContactForm $request)
+    public function store(Request $request)
     {
         $contact = new ContactForm;
 
